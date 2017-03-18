@@ -1,0 +1,80 @@
+@media screen and (min-width: 768px) {
+	
+	.mainNavigation {
+		position: static;
+	}
+
+	.mainNavigation--toggle {
+		display: none;
+	}
+
+	.mainNavigation--menu {
+		box-shadow: none;
+		display: block;
+		position: static;
+	}
+
+	.mainNavigation--menuItem {
+		border: 0;
+		float: left;
+	}
+
+	.mainNavigation--menuItem > a {
+		float: left;
+
+	}
+	.mainNavigation--menuItem > a:hover,
+	.mainNavigation--menuItem.is-active > a {
+
+	}
+
+	/***************************************** Submenu Toggle button */
+
+	.mainNavigation--subMenuToggle {
+		float: right;
+		position: static;
+	}
+
+	.mainNavigation--subMenuToggle:focus {
+		background: none;
+		outline: none;
+	}
+
+	.mainNavigation--subMenu .mainNavigation--subMenuToggle {
+		display: none;
+	}
+
+	/***************************************** Submenu */
+
+	.page-template-template-gridlayout .mainNavigation--menuItem ul.mainNavigation--subMenu {
+		display: none;
+	}
+
+	.mainNavigation--menuItem.is-active .mainNavigation--subMenu  {
+		display: block;
+	}
+
+    .mainNavigation--subMenu .mainNavigation--subMenu .mainNavigation--subMenu--menuItem {
+    	 display: none;
+     }
+
+	 .mainNavigation--subMenu .mainNavigation--subMenu--menuItem.is-active .mainNavigation--subMenu {
+		 padding-bottom: 15px;
+	  }
+
+	 .mainNavigation--subMenu .mainNavigation--subMenu--menuItem.is-active .mainNavigation--subMenu--menuItem{
+    	 display: block;
+		 font-size: 0.8em;
+      }
+
+	 .mainNavigation--menuItem.is-active > .mainNavigation--subMenu {
+		position: absolute;
+		right: 85px;
+		top: 120%;
+	 }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
