@@ -3,6 +3,9 @@
 	"type": "snippet",
 	"version": "0.1.0",
 	"description": "CSS for a horizontal menu with positioned submenu",
+	"dependencies": {
+		"clean-navigation-css-classes": "module"
+	},
 	"files": [
 		"navigation-horizontal-with-positioned-submenu.css"
     ],
