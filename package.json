@@ -1,14 +1,14 @@
 {
 	"name": "CSS: Horizontal navigation with positioned submenu",
-	"type": "snippet",
+	"type": "module",
 	"version": "0.1.0",
 	"description": "CSS for a horizontal menu with positioned submenu",
-	"files": [
-		"navigation-horizontal-with-positioned-submenu.css"
-    ],
 	"actions": {
 		"insertAfter": {
 			"searchValue": "* Media Queries */",
+			"newValue": {
+				"file": "navigation-horizontal-with-positioned-submenu.css"
+			},
 			"files": [
 				"css/modules/navigation.css"
 			]
